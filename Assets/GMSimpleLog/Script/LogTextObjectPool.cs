@@ -13,7 +13,7 @@ namespace GMLogSystem
 
         List<LogText> pooledLogTexts;
 
-        void Start()
+        public void Init()
         {
 
             pooledLogTexts = new List<LogText>();

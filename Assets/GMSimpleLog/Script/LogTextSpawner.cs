@@ -16,6 +16,7 @@ namespace GMLogSystem
         public static void SetUpSpawner(LogTextObjectPool _thePool)
         {
             thePool = _thePool;
+            thePool.Init();
         }
 
         public static void Log(string _string)
